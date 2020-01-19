@@ -1,1 +1,2 @@
 # id3-tag-reader
+[![Build Status](https://travis-ci.org/UggoPrince/id3-tag-reader.svg?branch=develop)](https://travis-ci.org/UggoPrince/id3-tag-reader) [![Coverage Status](https://coveralls.io/repos/github/UggoPrince/id3-tag-reader/badge.svg?branch=develop)](https://coveralls.io/github/UggoPrince/id3-tag-reader?branch=develop)

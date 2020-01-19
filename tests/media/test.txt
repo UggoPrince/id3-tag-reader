@@ -1,0 +1,30 @@
+function removeDuplicates(word){
+  let regExp = /[/W]/ig;
+  let w = word.replace(regExp, '');
+  w.toLowerCase();
+  
+  let arrayW = word.split('');
+  let result = '';
+  let duplicates = 0;
+  
+  arrayW.sort();
+  let arrayForD = [];
+  
+  // count duplicates if word length is greater than 1
+  if(w.length > 1){
+    let c = 0;
+    // check for duplicates
+    for (var i = 0; i < arrayW.length; i++){
+      for(let j = i + 1; j < arrayW.length; j++){
+        if(arrayW[i] == arrayW[j]){
+          ++dupicates
+          arrayForD.push(j);
+        }
+      }
+    }
+    
+    for(let i = 0; i < arrayForD.length; i++){
+      
+    }
+  }
+}
