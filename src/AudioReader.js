@@ -216,16 +216,16 @@ module.exports = class AudioReader {
 
 	getImageTagData( startPoint ){
 		let tagSize = '';
-		/*let data = '';
+		let data = '';
 		let textEncoding = '';
 		let picType = "";
 		let desc = "";
 		let k = '';
 		let mimeType = '';
-		let imgURL;*/
+		let imgURL;
 		let JF = '';
 		let zero = false;
-		//let zeroCount = 0;
+		let zeroCount = 0;
 		let r = /-/;
 		const JFI = '747073'; // JFIF = '74707370';
 		const Exi = '69120105'; // Exif = '69120105102';
@@ -233,7 +233,7 @@ module.exports = class AudioReader {
 		const view = new DataView(this.AudioFile.TagData.buffer);
 		let fileNum = this.currentFileNumber;
 		const file = this.AudioFile;
-		//const fname = file.ID[ fileNum ]; 
+		const fname = file.ID[ fileNum ]; 
 		
 		for( let s = 0; s < 4; s++ ){
 			let t = view.getInt8( startPoint + s );

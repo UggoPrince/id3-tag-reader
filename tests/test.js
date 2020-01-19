@@ -17,7 +17,7 @@ let fileNames = fs.readdirSync(directoryPath, (err, files) => {
 });
 
 for (let i = 0; i < fileNames.length; i++) {
-    const content = fs.readFileSync(`${directoryPath}\\${fileNames[i]}`);
+    const content = fs.readFileSync(`${directoryPath}/${fileNames[i]}`);
     allFiles.push(content);
 }
 
