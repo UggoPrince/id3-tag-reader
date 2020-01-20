@@ -1,6 +1,6 @@
 {
   "name": "id3-tag-reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mp3 tag reader for NodeJS",
   "main": "index.js",
   "scripts": {
